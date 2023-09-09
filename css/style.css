@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 20px auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    box-shadow: 0 2px 7px 1px grey; /* 1.right/left 2.up/down 3.smuge amount 4.radius/size 5.color 6.shadow inside of box */
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.850);
+}
+
+
+.menu {
+    display: flex;
+    gap: 10px;
+}
+
+.menu__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: turquoise;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+.menu__link:hover {
+    background-color: rgb(169, 236, 229);
+    transform: scale(1.1);
+}
+
+.article {
+    padding-top: 75px;
+}
+
+.post {
+    background-color: aquamarine;
+    border-radius: 5px;
+    color: darkviolet;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.post__title {
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.post__img {
+    width: 250px;
+    border-radius: 2px;
+    margin:0 15px 5px 0;
+    float: left;
+}
+
+.post__body {
+    text-align: justify;
+}
+
+.footer {
+    min-height: 80px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
